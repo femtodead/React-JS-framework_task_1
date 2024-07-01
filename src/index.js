@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Message from './Message';
+import CommentsList from './task_2/CommentsList';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Message text="Произвольный текст" boolText='true'/>
-    <Message text="другой произвольный текст" boolText='false'/>
+    <CommentsList />
   </React.StrictMode>
 );
 
