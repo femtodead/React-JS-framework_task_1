@@ -10,8 +10,16 @@ function CommentsList() {
     
   const delElem = (event) => {
 
+    let newArr = Object.assign([], comments);
+    newArr.splice(event.target.id, 1);
+    for (let index = 0; index < newArr.length; index++) {
+        newArr[index].id = index+1;
+        
+    }
     
-    event.target.parentElement.remove();
+    setComments(newArr)
+    
+    // event.target.parentElement.remove(); второй вариант удаляет сам элемент из dom дерева не трогая внутренний список
   }
 
 
