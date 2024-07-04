@@ -11,14 +11,12 @@ function App() {
   );
 }
 
-function Message() {
-  
   return (
     <div className="Message">
       <h1>Hello World</h1>
     </div>
   );
-}
+
 
 
 

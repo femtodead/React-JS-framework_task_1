@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import CommentsList from './task_2/CommentsList';
+import TemperatureConverter from './task_3/TemperatureConverter';
+import TodoList from './task_3/TodoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CommentsList />
+    <TemperatureConverter />
+    <TodoList />
   </React.StrictMode>
 );
 
