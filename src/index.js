@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import TemperatureConverter from './task_3/TemperatureConverter';
-import TodoList from './task_3/TodoList';
+import RoutPage from './task_4/RoutPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TemperatureConverter />
-    <TodoList />
+    <RoutPage />
   </React.StrictMode>
 );
 
