@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import RoutPage from './task_4/RoutPage';
+import App5 from './task_5/App5';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RoutPage />
+      <App5 />
   </React.StrictMode>
 );
 
