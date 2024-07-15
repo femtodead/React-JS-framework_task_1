@@ -13,7 +13,9 @@ const listReducers = (state = initialState, action) => {
         case IZ_PRODUCT:
 
               
-            return [...state, state[Number(action.payload.id)-1].available = "Доступен"]
+            return state.map(
+                ({id , name , description, price, available}) => ({id , name , description, price, available: (id == Number(action.payload.id)+1 ? (available=='Доступен'? 'Не доступно':'Доступен'):available)})
+            )
         default:
             return state
     }
