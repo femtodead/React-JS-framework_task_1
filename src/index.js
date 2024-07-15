@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import App5 from './task_5/App5';
+import App6 from './task_6/App6';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App5 />
+      <App6 />
   </React.StrictMode>
 );
 
